@@ -1,4 +1,7 @@
-usage : ./crypto.sh
+usage :
+download or clone it
+chmod +x crypto.sh
+./crypto.sh
 
 
 
