@@ -1,6 +1,8 @@
 usage :
-download or clone it'\n'
-chmod +x crypto.sh///
+download or clone it.
+###
+chmod +x crypto.sh 
+###
 ./crypto.sh
 
 
