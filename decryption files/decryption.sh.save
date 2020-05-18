@@ -1,0 +1,25 @@
+!/bin/bash
+#!/usr/bin/python
+clear
+while :
+do
+        echo
+        echo "Please enter a number from [00..09]"
+        echo -e "\e[32m======================================\e[0m"
+        echo -e " [ 01 ] \e[93mCaesar Cipher\e[0m"
+        echo -e " [ 02 ] \e[93mVigenere(modified) Cipher\e[0m"
+        echo -e " [ 03 ] \e[93mReverse string\e[0m"
+        echo -e " [ 04 ] \e[93mBaconian Cipher\e[0m"
+        echo -e " [ 05 ] \e[93mXor Cipher\e[0m"
+        echo -e " [ 06 ] \e[93mAffine Cipher\e[0m"
+        echo -e " [ 07 ] \e[93mMorse code encryption\e[0m"
+        echo -e " [ 08 ] \e[93mSubstitution Cipher\e[0m"
+        echo -e " [ 09 ] \e[93mRSA encryption\e[0m"
+        echo -e "\e[32m======================================\e[0m"
+        echo " [ 00 ]: Back"
+        echo
+        echo -n "Enter your choice:"
+        read x
+        case $x in
+                 01)
+			
